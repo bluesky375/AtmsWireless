@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72277DD625F7B7D500426B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277DD525F7B7D500426B6A /* AppDelegate.swift */; };
+		72277DD825F7B7D500426B6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277DD725F7B7D500426B6A /* SceneDelegate.swift */; };
+		72277DDA25F7B7D500426B6A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277DD925F7B7D500426B6A /* DetailViewController.swift */; };
+		72277DDD25F7B7D500426B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72277DDB25F7B7D500426B6A /* Main.storyboard */; };
+		72277DDF25F7B7D900426B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72277DDE25F7B7D900426B6A /* Assets.xcassets */; };
+		72277DE225F7B7D900426B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72277DE025F7B7D900426B6A /* LaunchScreen.storyboard */; };
+		72277DF225F7B98500426B6A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277DF125F7B98500426B6A /* HomeTableViewController.swift */; };
+		72277DF525F7B99500426B6A /* OfflineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277DF425F7B99500426B6A /* OfflineTableViewController.swift */; };
+		72277DF825F7B9AC00426B6A /* OverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277DF725F7B9AC00426B6A /* OverViewController.swift */; };
+		72277DFB25F7B9BF00426B6A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72277DFA25F7B9BF00426B6A /* APIManager.swift */; };
+		BE9478140B8D519BE423F334 /* Pods_AtmsWireless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45591C8D3B7ED0DE9C692E0 /* Pods_AtmsWireless.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FDD3EA924A7546AB24F41C1 /* Pods-AtmsWireless.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtmsWireless.debug.xcconfig"; path = "Target Support Files/Pods-AtmsWireless/Pods-AtmsWireless.debug.xcconfig"; sourceTree = "<group>"; };
+		72277DD225F7B7D500426B6A /* AtmsWireless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtmsWireless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72277DD525F7B7D500426B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72277DD725F7B7D500426B6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72277DD925F7B7D500426B6A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		72277DDC25F7B7D500426B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72277DDE25F7B7D900426B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72277DE125F7B7D900426B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72277DE325F7B7D900426B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72277DF125F7B98500426B6A /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		72277DF425F7B99500426B6A /* OfflineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineTableViewController.swift; sourceTree = "<group>"; };
+		72277DF725F7B9AC00426B6A /* OverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewController.swift; sourceTree = "<group>"; };
+		72277DFA25F7B9BF00426B6A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B54A9D651BA947B17399CFAC /* Pods-AtmsWireless.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtmsWireless.release.xcconfig"; path = "Target Support Files/Pods-AtmsWireless/Pods-AtmsWireless.release.xcconfig"; sourceTree = "<group>"; };
+		D45591C8D3B7ED0DE9C692E0 /* Pods_AtmsWireless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtmsWireless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72277DCF25F7B7D500426B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9478140B8D519BE423F334 /* Pods_AtmsWireless.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72277DC925F7B7D500426B6A = {
+			isa = PBXGroup;
+			children = (
+				72277DD425F7B7D500426B6A /* AtmsWireless */,
+				72277DD325F7B7D500426B6A /* Products */,
+				72361624A746BA86753F604E /* Pods */,
+				ECF8339B608017CAA91E4FD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72277DD325F7B7D500426B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72277DD225F7B7D500426B6A /* AtmsWireless.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72277DD425F7B7D500426B6A /* AtmsWireless */ = {
+			isa = PBXGroup;
+			children = (
+				72277DED25F7B92E00426B6A /* Cells */,
+				72277DEC25F7B92800426B6A /* Managers */,
+				72277DEB25F7B92100426B6A /* Controllers */,
+				72277DD525F7B7D500426B6A /* AppDelegate.swift */,
+				72277DD725F7B7D500426B6A /* SceneDelegate.swift */,
+				72277DDB25F7B7D500426B6A /* Main.storyboard */,
+				72277DDE25F7B7D900426B6A /* Assets.xcassets */,
+				72277DE025F7B7D900426B6A /* LaunchScreen.storyboard */,
+				72277DE325F7B7D900426B6A /* Info.plist */,
+			);
+			path = AtmsWireless;
+			sourceTree = "<group>";
+		};
+		72277DEB25F7B92100426B6A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72277DF125F7B98500426B6A /* HomeTableViewController.swift */,
+				72277DF425F7B99500426B6A /* OfflineTableViewController.swift */,
+				72277DF725F7B9AC00426B6A /* OverViewController.swift */,
+				72277DD925F7B7D500426B6A /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72277DEC25F7B92800426B6A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				72277DFA25F7B9BF00426B6A /* APIManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		72277DED25F7B92E00426B6A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		72361624A746BA86753F604E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FDD3EA924A7546AB24F41C1 /* Pods-AtmsWireless.debug.xcconfig */,
+				B54A9D651BA947B17399CFAC /* Pods-AtmsWireless.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ECF8339B608017CAA91E4FD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D45591C8D3B7ED0DE9C692E0 /* Pods_AtmsWireless.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72277DD125F7B7D500426B6A /* AtmsWireless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72277DE625F7B7D900426B6A /* Build configuration list for PBXNativeTarget "AtmsWireless" */;
+			buildPhases = (
+				5196CF4B18786E6B2B7848C3 /* [CP] Check Pods Manifest.lock */,
+				72277DCE25F7B7D500426B6A /* Sources */,
+				72277DCF25F7B7D500426B6A /* Frameworks */,
+				72277DD025F7B7D500426B6A /* Resources */,
+				DF4D5FC4269960401FC57F75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtmsWireless;
+			productName = AtmsWireless;
+			productReference = 72277DD225F7B7D500426B6A /* AtmsWireless.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72277DCA25F7B7D500426B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					72277DD125F7B7D500426B6A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 72277DCD25F7B7D500426B6A /* Build configuration list for PBXProject "AtmsWireless" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72277DC925F7B7D500426B6A;
+			productRefGroup = 72277DD325F7B7D500426B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72277DD125F7B7D500426B6A /* AtmsWireless */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72277DD025F7B7D500426B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72277DE225F7B7D900426B6A /* LaunchScreen.storyboard in Resources */,
+				72277DDF25F7B7D900426B6A /* Assets.xcassets in Resources */,
+				72277DDD25F7B7D500426B6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5196CF4B18786E6B2B7848C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AtmsWireless-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4D5FC4269960401FC57F75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtmsWireless/Pods-AtmsWireless-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtmsWireless/Pods-AtmsWireless-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtmsWireless/Pods-AtmsWireless-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72277DCE25F7B7D500426B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72277DF825F7B9AC00426B6A /* OverViewController.swift in Sources */,
+				72277DF225F7B98500426B6A /* HomeTableViewController.swift in Sources */,
+				72277DDA25F7B7D500426B6A /* DetailViewController.swift in Sources */,
+				72277DF525F7B99500426B6A /* OfflineTableViewController.swift in Sources */,
+				72277DD625F7B7D500426B6A /* AppDelegate.swift in Sources */,
+				72277DD825F7B7D500426B6A /* SceneDelegate.swift in Sources */,
+				72277DFB25F7B9BF00426B6A /* APIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72277DDB25F7B7D500426B6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72277DDC25F7B7D500426B6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72277DE025F7B7D900426B6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72277DE125F7B7D900426B6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72277DE425F7B7D900426B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72277DE525F7B7D900426B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72277DE725F7B7D900426B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FDD3EA924A7546AB24F41C1 /* Pods-AtmsWireless.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434S6EF56C;
+				INFOPLIST_FILE = AtmsWireless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atmwireless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72277DE825F7B7D900426B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54A9D651BA947B17399CFAC /* Pods-AtmsWireless.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434S6EF56C;
+				INFOPLIST_FILE = AtmsWireless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atmwireless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72277DCD25F7B7D500426B6A /* Build configuration list for PBXProject "AtmsWireless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72277DE425F7B7D900426B6A /* Debug */,
+				72277DE525F7B7D900426B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72277DE625F7B7D900426B6A /* Build configuration list for PBXNativeTarget "AtmsWireless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72277DE725F7B7D900426B6A /* Debug */,
+				72277DE825F7B7D900426B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72277DCA25F7B7D500426B6A /* Project object */;
+}
